@@ -11,12 +11,7 @@ const Header = () => {
 					Let's Build Something amazing with GPT-3 Open-AI
 				</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-					ab, quo sed non molestiae aspernatur quisquam quod ipsa dolores
-					enim veniam animi cum! Nisi repellat quas quam veniam libero.
-					Perferendis excepturi cupiditate cum eum, ratione modi quaerat
-					accusamus voluptatibus omnis laboriosam unde odit reprehenderit,
-					consequuntur quod facilis in repellat. Unde.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum, expedita reprehenderit ducimus sint architecto libero omnis totam in quaerat vitae ipsa inventore distinctio similique vero, optio, nemo error deleniti!
 				</p>
 
 				<div className="gpt3__header-content__input">
@@ -28,10 +23,9 @@ const Header = () => {
 					<img src={people} alt="people" />
 					<p>1,600 people requested access to visit in the last 24hours</p>
 				</div>
-
-				<div className="gpt3__header-image">
-					<img src={ai} alt="ai" />
-				</div>
+			</div>
+			<div className="gpt3__header-image">
+				<img src={ai} alt="ai" />
 			</div>
 		</div>
 	);

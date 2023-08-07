@@ -5,13 +5,16 @@ import ai from "../../assets/ai.png";
 
 const Header = () => {
 	return (
-		<div className="gpt3__header section__padding">
+		<div className="gpt3__header section__padding" id="home">
 			<div className="gpt3__header-content">
 				<h1 className="gradient__text">
 					Let's Build Something amazing with GPT-3 Open-AI
 				</h1>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum, expedita reprehenderit ducimus sint architecto libero omnis totam in quaerat vitae ipsa inventore distinctio similique vero, optio, nemo error deleniti!
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+					earum, expedita reprehenderit ducimus sint architecto libero
+					omnis totam in quaerat vitae ipsa inventore distinctio similique
+					vero, optio, nemo error deleniti!
 				</p>
 
 				<div className="gpt3__header-content__input">

@@ -39,8 +39,23 @@
 .gpt3__features-container__feature-text p {
 	font-family: var(--font-family);
 	font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
-    color: var(--color-text);
+	font-weight: 500;
+	line-height: 24px;
+	color: var(--color-text);
 }
 
+@media screen and (max-width: 550px) {
+	.gpt3__features-container__feature-title h1 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.gpt3__features-container__feature-title p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.gpt3__features-container__feature {
+		margin: 1rem 0;
+	}
+}

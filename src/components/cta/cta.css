@@ -40,10 +40,16 @@
 	border-radius: 40px;
 	font-weight: 700;
 	color: #fff;
-	line-height: 30x;
+	line-height: 30px;
 	cursor: pointer;
 	border: none;
 	outline: none;
+}
+
+.gpt3__cta-btn button:hover {
+	background: transparent;
+	color: #000000;
+	border: 1px solid #fff;
 }
 
 @media screen and (max-width: 650px) {

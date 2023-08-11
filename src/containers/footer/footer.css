@@ -28,6 +28,11 @@
 	cursor: pointer;
 }
 
+.gpt3__footer-btn p:hover {
+	background-color: #ff4820;
+	border: none;
+}
+
 .gpt3__footer-btn p {
 	border: 1px solid #fff;
 	font-size: 18px;
@@ -125,7 +130,6 @@
 		font-size: 14px;
 		line-height: 20px;
 	}
-    
 }
 
 @media screen and (max-width: 400px) {
